@@ -3,7 +3,6 @@
   background-color: var(--main-bg-color);
 
   text-align: center;
-  
 }
 
 .hero__container {
@@ -44,22 +43,22 @@
 
   @media screen and (min-width: 744px) {
     background-image: linear-gradient(
-      to bottom,
-      rgba(245, 250, 255, 0),
-      rgba(245, 250, 255, 1)
-    ),
-    url(../images/bg_img/unsplash@1m.png);
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: linear-gradient(
         to bottom,
         rgba(245, 250, 255, 0),
         rgba(245, 250, 255, 1)
       ),
-      url(../images/bg_img/unsplash@2m.png);
-  }
+      url(../images/bg_img/unsplash@1m.png);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(245, 250, 255, 0),
+          rgba(245, 250, 255, 1)
+        ),
+        url(../images/bg_img/unsplash@2m.png);
+    }
   }
 }
 
@@ -86,8 +85,10 @@
 
 .hero__button {
   display: inline-flex;
-  justify-content: center;
+
   padding-top: 361px;
+
+  @media screen and (min-width: 744px) {
+    justify-content: center;
+  }
 }
-
-

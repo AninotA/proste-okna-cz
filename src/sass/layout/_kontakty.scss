@@ -48,6 +48,10 @@
 
 .kontakty__button {
   display: inline-flex;
-  justify-content: center;
+
   padding-bottom: 40px;
+
+  @media screen and (min-width: 744px) {
+    justify-content: center;
+  }
 }

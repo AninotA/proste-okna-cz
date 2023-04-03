@@ -51,7 +51,13 @@
   color: var(--main-txt-color);
 }
 
-.parapety__btn {
-  margin-top: 219px;
-  margin-bottom: 17px;
+.parapety__button {
+  display: inline-flex;
+  padding-top: 219px;
+  padding-bottom: 17px;
+
+  @media screen and (min-width: 744px) {
+    justify-content: center;
+  }
 }
+
