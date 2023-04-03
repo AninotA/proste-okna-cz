@@ -65,14 +65,19 @@
 .hero__title {
   display: flex;
   justify-content: center;
-  font-weight: 800;
-  font-size: 26px;
-  line-height: calc(42 / 26);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: calc(76 / 56);
   color: var(--main-txt-color);
-  text-align: center;
+
+  padding-left: 34px;
+  padding-right: 34px;
   // margin-bottom: 8px;
+}
+
+.proste {
+  font-weight: 600;
+  margin-right: 20px;
 }
 
 .hero__descr {
