@@ -84,7 +84,10 @@
   margin-top: 8px;
 }
 
-.hero__btn {
-  margin-top: 361px;
-  // margin-bottom: 40px;
+.hero__button {
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 361px;
 }
+
+

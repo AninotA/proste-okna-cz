@@ -46,7 +46,8 @@
   color: var(--accent-txt-color);
 }
 
-.kontakty__btn {
-  margin-left: 10px;
-  margin-bottom: 40px;
+.kontakty__button {
+  display: inline-flex;
+  justify-content: center;
+  padding-bottom: 40px;
 }
