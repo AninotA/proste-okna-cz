@@ -1,0 +1,14 @@
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: calc(29 / 21);
+
+  padding: 11.5px 94px;
+  border: none;
+
+  background-color: var(--btn-bg-color);
+  color: var(--btn-txt-color);
+  cursor: pointer;
+  border-radius: 2px;
+}

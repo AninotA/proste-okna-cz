@@ -1,0 +1,74 @@
+<div class="backdrop is-hidden" data-main-modal>
+  <div class="modal-main">
+    <p class="modal__title">Zanechte své údaje, zavoláme vám zpět</p>
+    <form class="modal__form">
+      <!-- ? name ? -->
+      <label class="modal-label">
+        <span class="modal-label__text">Jméno</span>
+        <input
+          type="text"
+          class="modal-label__input"
+          name="name"
+          placeholder="Tvé jméno"
+          minlength="3"
+          maxlength="25"
+        />
+        <!-- ! error text -->
+        <span class="modal-label__errorText">
+          <img src="./images/logo/error.svg" alt="error" class="error-img" />
+          Jméno musí mít 3 až 25 znaků
+        </span>
+      </label>
+      <!-- ? phone -->
+      <label class="modal-label">
+        <span class="modal-label__text">Telefonní číslo</span>
+        <input
+          type="text"
+          class="modal-label__input"
+          placeholder="+42 ___ ___ ___"
+          pattern="\d*"
+          maxlength="13"
+        />
+        <!-- ! error text -->
+        <span class="modal-label__errorText">
+          <img src="./images/logo/error.svg" alt="error" class="error-img" />
+          Tento telefon musí být ve formátu 000 000 000
+        </span>
+      </label>
+      <!-- ? email -->
+      <label class="modal-label">
+        <span class="modal-label__text">E-mail</span>
+        <input
+          type="email"
+          class="modal-label__input"
+          placeholder="example@gmail.com"
+        />
+        <!-- ! error text -->
+        <span class="modal-label__errorText">
+          <img src="./images/logo/error.svg" alt="error" class="error-img" />
+          Prosím zadejte platnou e mailovou adresu
+        </span>
+      </label>
+      <!-- comment -->
+      <label class="modal-label" autocomplet="off">
+        <span class="modal-label__text">Komentář</span>
+        <textarea
+          class="comment"
+          name="comment"
+          rows="6"
+          placeholder="Zadejte text"
+        ></textarea>
+      </label>
+      <button type="submit" class="modal__submit">Odeslat</button>
+    </form>
+    <button
+      class="modal__closeBtn"
+      data-modal-main-close
+      aria-label="button for close modal window"
+    >
+      <svg class="modal_closeBtnIcon">
+        <use href="./images/logo/icons_menu.svg#close"></use>
+      </svg>
+    </button>
+  </div>
+</div>

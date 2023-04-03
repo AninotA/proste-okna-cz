@@ -1,0 +1,9 @@
+%section {
+  padding-top: 61px;
+  // padding-bottom: 20px;
+
+  @media screen and (min-width: 744px) {
+    padding-left: 111px;
+    padding-right: 110px;
+  }  
+}

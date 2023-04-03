@@ -1,0 +1,31 @@
+// utils styles
+@import './utils/placeholders';
+@import './utils/visually-hidden';
+@import './utils/variables';
+
+// base styles
+@import './base/reset';
+@import './base/base';
+
+@import './common/common';
+
+// components styles
+@import './components/container';
+
+@import './components/buttons';
+@import './components/mobile-menu';
+@import './components/modal-window';
+
+// layouts styles
+@import './layout/header';
+@import './layout/hero';
+@import './layout/info';
+@import './layout/okna';
+@import './layout/plastova';
+@import './layout/hlinikova';
+@import './layout/drevena';
+@import './layout/parapety';
+@import './layout/produkty';
+@import './layout/realizace';
+@import './layout/kontakty';
+@import './layout/footer';

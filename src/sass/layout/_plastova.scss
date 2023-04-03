@@ -1,0 +1,110 @@
+.plastova__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+//   padding-top: 20px; 
+  padding-bottom: 32px;
+
+}
+
+.plastova__logo {
+    display: inline-flex;
+    justify-content: center;
+    padding-bottom: 20px;    
+}
+
+.plastova__catalog {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  
+}
+
+.catalog {
+  border-bottom: 1px solid var(--main-txt-color);
+}
+
+.plastova__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+  text-align: start;
+  color: var(--main-txt-color);
+//   padding-top: 20px;
+  margin-bottom: 20px;
+
+  transition: color var(--animations);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-txt-color);
+  }
+
+  &--current {
+    color: var(--accent-txt-color);
+    position: relative;
+  }
+
+//   &--current::after {
+//     content: '';
+//     position: absolute;
+//     left: 0;
+//     bottom: 0;
+//     display: block;
+//     width: 100%;
+//     height: 4px;
+//     border-radius: 2px;
+//     background-color: var(--accent-txt-color);
+//   }
+}
+
+.plastova__kind {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.plastova__img {
+  width: 100px;
+
+  @media (min-width: 744px) {
+    width: 111px;
+  }
+}
+
+.plastova-pic__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+  text-align: start;
+  color: var(--main-txt-color);
+}
+
+.plastova__descr {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-align: center;
+  color: var(--main-txt-color);
+}
+
+.plastova-color__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+//   gap: 4px;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--main-txt-color);
+}
+.plastova-color__name {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 8px;
+  line-height: calc(9 / 8);
+  text-align: center;
+  color: var(--main-txt-color);
+  padding-top: 4px;
+}
