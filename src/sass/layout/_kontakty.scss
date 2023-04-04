@@ -14,6 +14,10 @@
   text-align: center;
   color: var(--main-txt-color);
   margin-bottom: 16px;
+
+  @media screen and (min-width: 744px) {
+    margin-bottom: 40px;
+  }
 }
 
 .kontakty__list {
@@ -27,6 +31,9 @@
 
 .kontakty__info {
   margin-bottom: 227px;
+  @media screen and (min-width: 744px) {
+    margin-bottom: 60px;
+  }
 }
 
 .kontakty__descr {
@@ -36,6 +43,12 @@
   line-height: calc(21 / 18);
   color: var(--main-txt-color);
   margin-bottom: 8px;
+
+  @media screen and (min-width: 744px) {
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    // margin-bottom: 6px;
+  }
 }
 
 .kontakty__link {
@@ -44,6 +57,11 @@
   font-size: 18px;
   line-height: calc(21 / 18);
   color: var(--accent-txt-color);
+
+  @media screen and (min-width: 744px) {
+    font-size: 20px;
+    line-height: calc(24 / 20);
+  }
 }
 
 .kontakty__button {

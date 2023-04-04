@@ -1,5 +1,12 @@
 .okna__container {
   padding-top: 91px;
+
+  @media screen and (min-width: 744px) {
+    padding-top: 108px;
+    padding-left: 111px;
+    padding-right: 110px;
+
+  }
 }
 
 .okna__title {
@@ -9,6 +16,10 @@
   text-align: center;
   color: var(--main-txt-color);
   margin-bottom: 11px;
+
+    @media screen and (min-width: 744px) {
+    margin-bottom: 20px;
+  }
 }
 
 .okna__list {
@@ -47,5 +58,3 @@
   //   background-color: var(--accent-txt-color);
   // }
 }
-
-
