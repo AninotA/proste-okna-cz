@@ -2,61 +2,94 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-//   padding-top: 20px; 
+  //   padding-top: 20px;
   padding-bottom: 32px;
 
+  @media screen and (min-width: 744px) {
+    padding-left: 111px;
+    padding-right: 110px;
+    padding-bottom: 40px;
+  }
 }
 
 .plastova__logo {
-    display: inline-flex;
-    justify-content: center;
-    padding-bottom: 20px;    
+  display: inline-flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.plastova-aluplast__icon {
+  width: 78px;
+  height: 40px;
+
+  @media screen and (min-width: 744px) {
+    width: 87px;
+    height: 46px;
+  }
+}
+
+.plastova-eko__icon {
+  width: 98;
+  height: 40;
+
+  @media screen and (min-width: 744px) {
+    width: 161px;
+    height: 66px;
+  }
+}
+
+.plastova-sal__icon {
+  width: 187;
+  height: 40;
+
+  @media screen and (min-width: 744px) {
+    width: 201px;
+    height: 44px;
+  }
+}
+
+.plastova-gealan__icon {
+  width: 128;
+  height: 40;
+
+  @media screen and (min-width: 744px) {
+    width: 159px;
+    height: 52px;
+  }
 }
 
 .plastova__catalog {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
-  
 }
 
 .catalog {
   border-bottom: 1px solid var(--main-txt-color);
 }
 
-.plastova__title {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: calc(25 / 18);
-  text-align: start;
-  color: var(--main-txt-color);
-//   padding-top: 20px;
-  margin-bottom: 20px;
+// .plastova__title {
+//   font-weight: 600;
+//   font-size: 18px;
+//   line-height: calc(25 / 18);
+//   text-align: start;
+//   color: var(--main-txt-color);
+// //   padding-top: 20px;
+//   margin-bottom: 20px;
 
-  transition: color var(--animations);
+//   transition: color var(--animations);
 
-  &:hover,
-  &:focus {
-    color: var(--accent-txt-color);
-  }
-
-  &--current {
-    color: var(--accent-txt-color);
-    position: relative;
-  }
-
-//   &--current::after {
-//     content: '';
-//     position: absolute;
-//     left: 0;
-//     bottom: 0;
-//     display: block;
-//     width: 100%;
-//     height: 4px;
-//     border-radius: 2px;
-//     background-color: var(--accent-txt-color);
+//   &:hover,
+//   &:focus {
+//     color: var(--accent-txt-color);
 //   }
-}
+
+//   &--current {
+//     color: var(--accent-txt-color);
+//     position: relative;
+//   }
+
+// }
 
 .plastova__kind {
   display: flex;
@@ -65,20 +98,17 @@
   align-items: flex-start;
 }
 
-.plastova__img {
-  width: 100px;
-
-  @media (min-width: 744px) {
-    width: 111px;
-  }
-}
-
 .plastova-pic__title {
   font-weight: 600;
   font-size: 18px;
   line-height: calc(25 / 18);
   text-align: start;
   color: var(--main-txt-color);
+
+  @media screen and (min-width: 744px) {
+    font-size: 20px;
+    line-height: calc(27 / 20);
+  }
 }
 
 .plastova__descr {
@@ -88,13 +118,26 @@
   line-height: calc(16 / 14);
   text-align: center;
   color: var(--main-txt-color);
+
+  @media (min-width: 744px) {
+    font-size: 16px;
+    line-height: calc(19 / 16);
+  }
 }
+
+// .plastova__img {
+//   width: 100px;
+
+//   @media (min-width: 744px) {
+//     width: 111px;
+//   }
+// }
 
 .plastova-color__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-//   gap: 4px;
+  //   gap: 4px;
   align-items: center;
   padding-bottom: 12px;
   border-bottom: 1px solid var(--main-txt-color);
@@ -107,4 +150,9 @@
   text-align: center;
   color: var(--main-txt-color);
   padding-top: 4px;
+
+  @media (min-width: 744px) {
+    font-size: 10px;
+    line-height: calc(12 / 10);
+  }
 }
