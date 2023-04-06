@@ -3,6 +3,7 @@
   justify-content: space-between;
   border-top: 1px solid var(--main-txt-color);
   padding-top: 0;
+  padding-bottom: 18px;
 }
 
 .footer__nav {
@@ -15,6 +16,10 @@
   flex-direction: column;
   gap: 10px;
   margin-bottom: 12px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .footer-nav__link {
@@ -42,10 +47,9 @@
   line-height: calc(19 / 14);
 }
 
-.footer-copyright {
+.footer-copyright__text {
   font-weight: 400;
   font-size: 12px;
   line-height: calc(16 / 12);
   color: var(--txt-color-copy);
-  
 }

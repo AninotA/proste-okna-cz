@@ -5,6 +5,11 @@
 .kontakty__container {
   padding-left: 10px;
   padding-right: 10px;
+
+  @media screen and (min-width: 744px) {
+    padding-left: 111px;
+    padding-right: 110px;
+  }
 }
 
 .kontakty__title {
@@ -71,5 +76,6 @@
 
   @media screen and (min-width: 744px) {
     justify-content: center;
+    // padding-right: 110px;
   }
 }
