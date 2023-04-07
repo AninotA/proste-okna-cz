@@ -10,12 +10,21 @@
     padding-right: 110px;
     padding-bottom: 40px;
   }
+
+  @media screen and (min-width: 1024px) {
+    padding-left: 213px;
+    padding-right: 213px;
+    padding-bottom: 80px;
+  }
 }
 
 .plastova__logo {
   display: inline-flex;
   justify-content: center;
   padding-bottom: 20px;
+  @media screen and (min-width: 1024px) {
+    padding-bottom: 40px;
+  }
 }
 
 .plastova-aluplast__icon {
@@ -26,6 +35,11 @@
     width: 87px;
     height: 46px;
   }
+
+  @media screen and (min-width: 1024px) {
+    width: 177px;
+    height: 94px;
+  }
 }
 
 .plastova-eko__icon {
@@ -35,6 +49,11 @@
   @media screen and (min-width: 744px) {
     width: 161px;
     height: 66px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 177px;
+    height: 72px;
   }
 }
 
@@ -55,6 +74,11 @@
   @media screen and (min-width: 744px) {
     width: 159px;
     height: 52px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 178px;
+    height: 58px;
   }
 }
 
@@ -109,6 +133,11 @@
     font-size: 20px;
     line-height: calc(27 / 20);
   }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+    line-height: calc(33 / 24);
+  }
 }
 
 .plastova__descr {
@@ -122,6 +151,11 @@
   @media (min-width: 744px) {
     font-size: 16px;
     line-height: calc(19 / 16);
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 19px;
+    line-height: calc(22 / 19);
   }
 }
 
@@ -141,6 +175,10 @@
   align-items: center;
   padding-bottom: 12px;
   border-bottom: 1px solid var(--main-txt-color);
+
+  @media (min-width: 1024px) {
+    padding-bottom: 16px;
+  }
 }
 .plastova-color__name {
   font-family: var(--secondary-font);
@@ -154,5 +192,10 @@
   @media (min-width: 744px) {
     font-size: 10px;
     line-height: calc(12 / 10);
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 12px;
+    line-height: calc(14 / 12);
   }
 }
