@@ -3,7 +3,7 @@
 }
 
 .kontakty__container {
-  padding-left: 10px;
+  // padding-left: 10px;
   padding-right: 10px;
 
   @media screen and (min-width: 744px) {
@@ -71,11 +71,11 @@
 
 .kontakty__button {
   display: inline-flex;
-
+  justify-content: center;
   padding-bottom: 40px;
 
   @media screen and (min-width: 744px) {
-    justify-content: center;
-    // padding-right: 110px;
+    padding-left: 111px;
+    
   }
 }
