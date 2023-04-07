@@ -27,6 +27,10 @@
     align-items: flex-end;
     padding: 16px 20px 10px;
   }
+
+  @media screen and (min-width: 1024px) {
+    padding: 14px 108px 12px;
+  }
 }
 .header__list {
   display: flex;
@@ -38,6 +42,12 @@
   @media screen and (min-width: 744px) {
     gap: 39px;
     align-items: flex-end;
+    margin-right: 20px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    gap: 45px;
+    margin-right: 30px;
   }
 }
 
@@ -48,6 +58,11 @@
   @media (min-width: 744px) {
     width: 42px;
     height: 52px;
+  }
+
+   @media (min-width: 1024px) {
+    width: 60px;
+    height: 74px;
   }
 }
 
@@ -72,7 +87,7 @@
 .nav__container {
   display: flex;
   align-items: center;
-  gap: 28px;
+  // gap: 28px;
   margin-left: auto;
 
   // @media screen and (max-width: 743px) {
@@ -93,6 +108,11 @@
   @media screen and (min-width: 744px) {
     display: flex;
     background-image: none;
+    gap: 20px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    gap: 30px;
   }
 }
 

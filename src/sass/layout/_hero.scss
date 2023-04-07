@@ -60,6 +60,26 @@
         url(../images/bg_img/unsplash@2m.png);
     }
   }
+
+  @media screen and (min-width: 1024px) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(245, 250, 255, 0),
+        rgba(245, 250, 255, 1)
+      ),
+      url(../images/bg_img/unsplash@1l.png);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(245, 250, 255, 0),
+          rgba(245, 250, 255, 1)
+        ),
+        url(../images/bg_img/unsplash@2l.png);
+    }
+  }
 }
 
 .hero__title {
