@@ -3,12 +3,9 @@
 }
 
 .kontakty__container {
-  // padding-left: 10px;
-  padding-right: 10px;
-
-  @media screen and (min-width: 744px) {
-    padding-left: 111px;
-    padding-right: 110px;
+  @media screen and (min-width: 1024px) {
+    padding-left: 213px;
+    padding-right: 213px;
   }
 }
 
@@ -23,12 +20,16 @@
   @media screen and (min-width: 744px) {
     margin-bottom: 40px;
   }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 36px;
+    line-height: calc(54 / 36);
+  }
 }
 
 .kontakty__list {
   display: flex;
   flex-flow: column;
-  padding-top: 16px;
   gap: 16px;
   border-bottom: 1px solid var(--main-txt-color);
   margin-bottom: 28px;
@@ -38,6 +39,10 @@
   margin-bottom: 227px;
   @media screen and (min-width: 744px) {
     margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 80px;
   }
 }
 
@@ -71,11 +76,15 @@
 
 .kontakty__button {
   display: inline-flex;
-  justify-content: center;
+  // justify-content: center;
   padding-bottom: 40px;
 
   @media screen and (min-width: 744px) {
     padding-left: 111px;
-    
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding-bottom: 60px;
+    padding-left: 140px;
   }
 }

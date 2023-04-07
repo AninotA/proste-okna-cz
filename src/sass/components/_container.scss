@@ -11,14 +11,14 @@
   }
 
   @media screen and (min-width: 744px) {
-    width: 744px;
     padding-left: 111px;
     padding-right: 110px;
+    width: 744px;
   }
 
-  @media screen and (min-width: 1280px) {
-    padding-left: 16px;
-    padding-right: 16px;
-    width: 1280px;
+  @media screen and (min-width: 1024px) {
+    padding-left: 108px;
+    padding-right: 108px;
+    width: 1024px;
   }
 }

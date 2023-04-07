@@ -42,12 +42,12 @@
   @media screen and (min-width: 744px) {
     gap: 39px;
     align-items: flex-end;
-    margin-right: 20px;
+    // margin-right: 20px;
   }
 
   @media screen and (min-width: 1024px) {
-    gap: 45px;
-    margin-right: 30px;
+    gap: 35px;
+    // margin-right: 25px;
   }
 }
 
@@ -60,7 +60,7 @@
     height: 52px;
   }
 
-   @media (min-width: 1024px) {
+  @media (min-width: 1024px) {
     width: 60px;
     height: 74px;
   }
@@ -72,16 +72,34 @@
   font-weight: 400;
   font-size: 13px;
   line-height: calc(18 / 13);
+  color: var(--main-txt-color);
   // margin-right: 94px;
 
   @media screen and (min-width: 744px) {
     font-size: 15px;
     line-height: calc(21 / 15);
   }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 17px;
+    line-height: calc(23 / 17);
+  }
 }
 
-.phone__icon {
+.header-phone__icon {
+  width: 16px;
+  height: 16px;
   fill: var(--main-txt-color);
+
+  @media (min-width: 744px) {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .nav__container {
@@ -111,9 +129,9 @@
     gap: 20px;
   }
 
-  @media screen and (min-width: 1024px) {
-    gap: 30px;
-  }
+  // @media screen and (min-width: 1024px) {
+  //   gap: 20px;
+  // }
 }
 
 .nav__link {
@@ -130,10 +148,11 @@
   @media screen and (min-width: 744px) {
     font-size: 15px;
     line-height: calc(21 / 15);
-    color: var(--main-txt-color);
   }
-  @media screen and (max-width: 1279px) {
-    color: var(--main-txt-color);
+
+  @media screen and (min-width: 1024px) {
+    font-size: 17px;
+    line-height: calc(23 / 17);
   }
 }
 

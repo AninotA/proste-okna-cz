@@ -1,5 +1,9 @@
 .info {
   @extend %section;
+
+  @media screen and (min-width: 1024px) {
+    padding-top: 80px;
+  }
 }
 
 .info__container {
@@ -13,7 +17,7 @@
     padding-right: 0;
   }
 
-  @media screen and (min-width: 744px) {
+  @media screen and (min-width: 1024px) {
     padding-left: 108px;
     padding-right: 108px;
   }
@@ -32,10 +36,9 @@
     padding-right: 356px;
   }
 
-    @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     font-size: 24px;
     line-height: calc(36 / 24);
-    
   }
 }
 
@@ -60,7 +63,7 @@
     margin-top: 16px;
   }
 
-    @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     font-size: 19px;
     line-height: calc(29 / 19);
     margin-top: 20px;
