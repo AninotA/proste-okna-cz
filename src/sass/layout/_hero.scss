@@ -90,7 +90,7 @@
   line-height: calc(26 / 19);
   color: var(--main-txt-color);
   margin-top: 8px;
-  
+
   @media screen and (min-width: 744px) {
     font-size: 22px;
     line-height: calc(27 / 22);
@@ -99,10 +99,10 @@
 
 .hero__button {
   display: inline-flex;
-
+  justify-content: center;
   padding-top: 361px;
 
-  @media screen and (min-width: 744px) {
-    justify-content: center;
-  }
+  // @media screen and (min-width: 744px) {
+  //   justify-content: center;
+  // }
 }

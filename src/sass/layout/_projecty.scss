@@ -1,15 +1,15 @@
-.produkty {
+.projecty {
   @extend %section;
 }
 
-.produkty__container {
+.projecty__container {
   @media screen and (min-width: 744px) {
     padding-left: 111px;
     padding-right: 110px;
   }
 }
 
-.produkty__title {
+.projecty__title {
   font-weight: 600;
   font-size: 32px;
   line-height: calc(44 / 32);
@@ -23,7 +23,7 @@
   }
 }
 
-.produkty__list {
+.projecty__list {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -33,7 +33,7 @@
   }
 }
 
-.produkty__item {
+.projecty__item {
   // display: none;
   display: flex;
   align-items: flex-end;
@@ -43,7 +43,7 @@
   padding-bottom: 8px;
 }
 
-.produkty__descr {
+.projecty__descr {
   font-family: var(--secondary-font);
   font-weight: 400;
   font-size: 14px;
@@ -56,7 +56,7 @@
   }
 }
 
-.produkty__icon {
+.projecty__icon {
   width: 38px;
   height: 47px;
 
