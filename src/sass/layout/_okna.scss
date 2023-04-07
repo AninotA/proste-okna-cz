@@ -5,7 +5,12 @@
     padding-top: 108px;
     padding-left: 111px;
     padding-right: 110px;
+  }
 
+  @media screen and (min-width: 1024px) {
+    padding-top: 140px;
+    padding-left: 213px;
+    padding-right: 213px;
   }
 }
 
@@ -17,8 +22,13 @@
   color: var(--main-txt-color);
   margin-bottom: 11px;
 
-    @media screen and (min-width: 744px) {
+  @media screen and (min-width: 744px) {
     margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 36px;
+    line-height: calc(54 / 36);
   }
 }
 
@@ -26,6 +36,10 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 40px;
+  }
 }
 .okna-nav__link {
   font-weight: 600;
@@ -57,4 +71,9 @@
   //   border-radius: 2px;
   //   background-color: var(--accent-txt-color);
   // }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+    line-height: calc(24 / 33);
+  }
 }
