@@ -36,13 +36,13 @@
 }
 
 .kontakty__info {
-  margin-bottom: 227px;
+  margin-bottom: 279px;
   @media screen and (min-width: 744px) {
     margin-bottom: 60px;
   }
 
   @media screen and (min-width: 1024px) {
-    margin-bottom: 80px;
+    margin-bottom: 120px;
   }
 }
 
@@ -74,17 +74,17 @@
   }
 }
 
-.kontakty__button {
-  display: inline-flex;
-  // justify-content: center;
-  padding-bottom: 40px;
+// .kontakty__button {
+//   display: inline-flex;
+//   // justify-content: center;
+//   padding-bottom: 40px;
 
-  @media screen and (min-width: 744px) {
-    padding-left: 111px;
-  }
+//   @media screen and (min-width: 744px) {
+//     padding-left: 111px;
+//   }
 
-  @media screen and (min-width: 1024px) {
-    padding-bottom: 60px;
-    padding-left: 140px;
-  }
-}
+//   @media screen and (min-width: 1024px) {
+//     padding-bottom: 60px;
+//     padding-left: 140px;
+//   }
+// }
