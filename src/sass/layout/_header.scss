@@ -29,9 +29,11 @@
   }
 
   @media screen and (min-width: 1024px) {
+    width: 100vw;
     padding-top: 14px;
     padding-bottom: 12px;
     padding-left: 108px;
+    padding-right: 108px;
   }
 }
 .header__list {
@@ -110,8 +112,8 @@
   // gap: 28px;
   // margin-left: auto;
 
-  // @media screen and (max-width: 743px) {
-  //   display: none;
+  // @media screen and (min-width: 1200px) {
+  //   justify-items: end;
   // }
 }
 
