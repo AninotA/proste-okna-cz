@@ -26,8 +26,6 @@
     />
     <!-- Animate ending -->
     <link rel="stylesheet" href="./sass/main.scss" />
-    <script type="module" src="./index.js"></script>
-    <script defer src="./js/mobile-menu.js"></script>
   </head>
   <body>
     <include src="./partials/header.html"></include>
@@ -45,33 +43,33 @@
             </div>
             <div class="parapety__pic">
               <picture>
-        <source
-          media="(min-width: 1024px)"
-          srcset="
-            ../src/images/parapety/parapety_l.png   1x,
-            ../src/images/parapety/parapety_@2l.png 2x
-          "
-        />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="
+                    ../src/images/parapety/parapety_l.png   1x,
+                    ../src/images/parapety/parapety_@2l.png 2x
+                  "
+                />
 
-        <source
-          media="(min-width: 744px)"
-          srcset="
-            ../src/images/parapety/parapety_m.png   1x,
-            ../src/images/parapety/parapety_@2m.png 2x
-          "
-          <source
-          media="(min-width: 390px)"
-          srcset="
-            ../src/images/parapety/parapety_s.png   1x,
-            ../src/images/parapety/parapety_@2s.png 2x
-          "
-        />
-        <img
-          class="parapety__img"
-          alt="parapety"
-          src="../src/images/parapety/parapety_s.png"
-        />
-      </picture>
+                <source
+                  media="(min-width: 744px)"
+                  srcset="
+                    ../src/images/parapety/parapety_m.png   1x,
+                    ../src/images/parapety/parapety_@2m.png 2x
+                  "
+                  <source
+                  media="(min-width: 390px)"
+                  srcset="
+                    ../src/images/parapety/parapety_s.png   1x,
+                    ../src/images/parapety/parapety_@2s.png 2x
+                  "
+                />
+                <img
+                  class="parapety__img"
+                  alt="parapety"
+                  src="../src/images/parapety/parapety_s.png"
+                />
+              </picture>
             </div>
           </div>
 
@@ -92,6 +90,9 @@
     <include src="./partials/footer.html"></include>
 
     <include src="./partials/modal-windows.html"></include>
+
+    <script type="module" src="./index.js"></script>
+    <script defer src="./js/mobile-menu.js"></script>
 
     <script src="./js/modal-parapety.js"></script>
   </body>

@@ -128,8 +128,9 @@
 }
 
 .drevena__button {
-  display: inline-flex;
-  justify-content: center;
+  // display: inline-flex;
+  // justify-content: center;
+  text-align: center;
   padding-bottom: 40px;
 
   @media (min-width: 744px) {
