@@ -29,7 +29,9 @@
   }
 
   @media screen and (min-width: 1024px) {
-    padding: 14px 108px 12px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-left: 108px;
   }
 }
 .header__list {
@@ -106,7 +108,7 @@
   display: flex;
   align-items: center;
   // gap: 28px;
-  margin-left: auto;
+  // margin-left: auto;
 
   // @media screen and (max-width: 743px) {
   //   display: none;
@@ -116,7 +118,7 @@
 .nav__list {
   position: inherit;
   gap: 28px;
-  margin-left: auto;
+  // margin-left: auto;
   align-items: center;
 
   @media screen and (max-width: 743px) {
