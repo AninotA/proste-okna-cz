@@ -39,16 +39,39 @@
           <div class="parapety__catalog">
             <div class="parapety__kind">
               <h2 class="parapety-pic__title">Parapety</h2>
-              <p class="parapety__descr">Uw, když</p>
+              <!-- <p class="parapety__descr">Uw, když</p>
               <p class="parapety__descr">těsnění</p>
-              <p class="parapety__descr"></p>
+              <p class="parapety__descr"></p> -->
             </div>
             <div class="parapety__pic">
-              <img
-                src="./images/parapety1.png"
-                alt="parapety"
-                class="parapety__img"
-              />
+              <picture>
+        <source
+          media="(min-width: 1024px)"
+          srcset="
+            ../src/images/parapety/parapety_l.png   1x,
+            ../src/images/parapety/parapety_@2l.png 2x
+          "
+        />
+
+        <source
+          media="(min-width: 744px)"
+          srcset="
+            ../src/images/parapety/parapety_m.png   1x,
+            ../src/images/parapety/parapety_@2m.png 2x
+          "
+          <source
+          media="(min-width: 390px)"
+          srcset="
+            ../src/images/parapety/parapety_s.png   1x,
+            ../src/images/parapety/parapety_@2s.png 2x
+          "
+        />
+        <img
+          class="parapety__img"
+          alt="parapety"
+          src="../src/images/parapety/parapety_s.png"
+        />
+      </picture>
             </div>
           </div>
 
