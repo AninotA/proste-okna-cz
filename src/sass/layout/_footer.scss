@@ -1,10 +1,12 @@
-.footer {
-  border-top: 1px solid var(--main-txt-color);
-}
+// .footer {
+//   border-top: 1px solid var(--main-txt-color);
+// }
 
 .footer__container {
+  border-top: 1px solid var(--main-txt-color);
   display: flex;
   justify-content: space-between;
+  
   // align-items: baseline;
   padding-left: 10px;
   // padding-right: 10px;
