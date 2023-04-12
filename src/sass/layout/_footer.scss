@@ -76,6 +76,10 @@
   padding-top: 29px;
 
   @media screen and (min-width: 744px) {
+    margin-right: 180px;
+  }
+
+    @media screen and (min-width: 1024px) {
     margin-right: 188px;
   }
 }
