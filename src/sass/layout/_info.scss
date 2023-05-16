@@ -1,9 +1,6 @@
 .info {
   @extend %section;
 
-  @media screen and (min-width: 1024px) {
-    padding-top: 80px;
-  }
 }
 
 .info__container {
