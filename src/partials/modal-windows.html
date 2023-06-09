@@ -1,7 +1,7 @@
 <div class="backdrop is-hidden" data-main-modal>
   <div class="modal-main">
     <p class="modal__title">Zanechte své údaje, zavoláme vám zpět</p>
-    <form class="modal__form">
+    <form action="send_mail.php" id="form" method="POST" class="modal__form">
       <!-- ? name ? -->
       <label class="modal-label">
         <span class="modal-label__text">Jméno</span>
@@ -9,9 +9,11 @@
           type="text"
           class="modal-label__input"
           name="name"
+          id="name"          
           placeholder="Tvé jméno"
           minlength="3"
           maxlength="25"
+          
         />
         <!-- ! error text -->
         <span class="modal-label__errorText">
@@ -20,14 +22,17 @@
         </span>
       </label>
       <!-- ? phone -->
-      <label class="modal-label">
+      <label class="modal-label" >
         <span class="modal-label__text">Telefonní číslo</span>
         <input
           type="text"
           class="modal-label__input"
-          placeholder="420 ___ ___ ___"
+          placeholder="Telefonní číslo"
+          name="phone"
+          id="phone"
           pattern="\d*"
           maxlength="14"
+          
         />
         <!-- ! error text -->
         <span class="modal-label__errorText">
@@ -40,8 +45,11 @@
         <span class="modal-label__text">E-mail</span>
         <input
           type="email"
+          name="email"
+          id="email"          
           class="modal-label__input"
           placeholder="example@gmail.com"
+          
         />
         <!-- ! error text -->
         <span class="modal-label__errorText">

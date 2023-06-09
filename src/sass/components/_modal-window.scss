@@ -16,6 +16,10 @@
   opacity: 0;
   pointer-events: none;
 }
+
+ .backdrop.is-hidden .modal-main {
+    transform: translate(-50%, -50%) scale(0.9);
+  }
 // - - - - - - - - - - - - - - - - - - - - - -
 
 .modal-main {
@@ -41,6 +45,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 .modal__title {
   //   font-family: 'Roboto';
@@ -76,6 +81,7 @@
     padding-left: 30px;
   }
 }
+
 .modal-label__errorText {
   opacity: 0;
 
@@ -93,13 +99,16 @@
 
   margin-bottom: 9px;
 }
-.error-img {
-  margin-right: 4.43px;
-  margin-left: 32.43px;
 
-  width: 11.14px;
-  height: 11.14px;
+.error-img {
+  margin-top: 2px;
+  margin-right: 4px;
+  margin-left: 32px;
+
+  width: 12px;
+  height: 12px;
 }
+
 .modal-label__input {
   min-width: 280px;
   height: 48px;
@@ -114,7 +123,7 @@
 
   background-color: var(--main-bg-color);
 
-  color: var(--modal-placeholder-col);
+  color: var(--main-txt-color);
 
   transition-property: border-color;
   transition-duration: 250ms;
