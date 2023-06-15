@@ -1,63 +1,66 @@
 <div class="backdrop is-hidden" data-main-modal>
   <div class="modal-main">
     <p class="modal__title">Zanechte své údaje, zavoláme vám zpět</p>
-    <form action="send_mail.php" id="form" method="POST" class="modal__form">
-      <!-- ? name ? -->
+    <form name="form" id="form" class="modal__form">
+
       <label class="modal-label">
         <span class="modal-label__text">Jméno</span>
         <input
           type="text"
-          class="modal-label__input"
+          class="modal-label__input _req"
           name="name"
-          id="name"          
+          id="name"   
+          data-reg="^[a-zA-Z0-9]+$"    
           placeholder="Tvé jméno"
           minlength="3"
           maxlength="25"
-          
+          required
         />
-        <!-- ! error text -->
-        <span class="modal-label__errorText">
+      
+        <!-- <span class="modal-label__errorText">
           <img src="./images/logo/error.svg" alt="error" class="error-img" />
           Jméno musí mít 3 až 25 znaků
-        </span>
+        </span> -->
       </label>
-      <!-- ? phone -->
+    
       <label class="modal-label" >
         <span class="modal-label__text">Telefonní číslo</span>
         <input
           type="text"
-          class="modal-label__input"
+          class="modal-label__input _req"
           placeholder="Telefonní číslo"
           name="phone"
           id="phone"
+          data-reg="^(\+)?((\d{2,3}) ?\d|\d)(([ -]?\d)|( ?(\d{2,3}) ?)){5,12}\d$"
           pattern="\d*"
           maxlength="14"
-          
+          required
         />
-        <!-- ! error text -->
-        <span class="modal-label__errorText">
+   
+        <!-- <span class="modal-label__errorText">
           <img src="./images/logo/error.svg" alt="error" class="error-img" />
           Tento telefon musí být ve formátu 000 000 000
-        </span>
+        </span> -->
       </label>
-      <!-- ? email -->
+    
       <label class="modal-label">
         <span class="modal-label__text">E-mail</span>
         <input
           type="email"
           name="email"
-          id="email"          
-          class="modal-label__input"
+          id="email" 
+          data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"         
+          class="modal-label__input _req"
           placeholder="example@gmail.com"
-          
+          required
         />
-        <!-- ! error text -->
-        <span class="modal-label__errorText">
+       
+        <!-- <span class="modal-label__errorText">
           <img src="./images/logo/error.svg" alt="error" class="error-img" />
           Prosím zadejte platnou e mailovou adresu
-        </span>
+        </span> -->
       </label>
-      <!-- comment -->
+
       <label class="modal-label" autocomplet="off">
         <span class="modal-label__text">Komentář</span>
         <textarea
